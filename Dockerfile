@@ -67,4 +67,6 @@ RUN chkconfig httpd on
 RUN usermod -u 1000 apache
 EXPOSE 80 443 8080 3306
 
-CMD ["/bin/bash"]
+#CMD ["/bin/bash"]
+
+
